@@ -36,7 +36,7 @@ function App() {
       </div>
       <div className="input-section">
         <h3 className="label">Date Of Birth</h3>
-        <input type="date" id="birth-date" name="birth-date" placeholder="dd-mm-yyyy" onSelect = {(event)=> setBirthDate(event.target.value)} />
+        <input type="date" id="birth-date" name="birth-date" placeholder="dd-mm-yyyy" onSelect= {(event) => setBirthDate(event.target.value)} />
       </div>
       <div className="input-section">
         <h3 className="label">Lucky Number</h3>
@@ -45,7 +45,7 @@ function App() {
       <div>
         <button onClick={checkNumber}>Check Number</button>
       </div>
-      <div className = "result-section">
+      <div className="result-section">
         <h2>{result}</h2>
       </div>
     </div>
