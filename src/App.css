@@ -49,6 +49,33 @@ button{
 }
 
 .result-section{
-  height: 100px;
+  height: 50px;
+}
+.footer {
+  color: white;
+  background-color: var(--primary-color);
+  border-top-right-radius: 1rem;
+  padding: .5rem 1rem;
+  text-align: center;
+  bottom: 0;
+  /* width: 100%;
+  position: absolute; */
+}
 
+.footer .link {
+  color: white;
+  padding: 0;
+}
+
+.footer ul {
+  padding-inline-start: 0;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: .5rem 1rem;
 }
