@@ -8,7 +8,7 @@ function Footer() {
         <footer class="footer">
             <ul class="list-non-bullet">
                 <li class="list-item-inline">
-                    <a href="https://github.com/surajmore98" class="link"><img alt="github" src={github} title="github" alt="github"/></a>
+                    <a href="https://github.com/surajmore98" class="link"><img alt="github" src={github} title="github"/></a>
                 </li>
                 <li class="list-item-inline">
                     <a href="https://www.linkedin.com/in/suraj-more-315b43119" class="link"><img src={linkedin} title="linkedin" alt="linkedin"/></a>
