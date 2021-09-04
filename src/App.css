@@ -31,6 +31,7 @@ input {
 
 .label {
   text-align: left;
+  margin: 1rem 0;
 }
 
 button{
@@ -45,21 +46,17 @@ button{
   width: 280px;
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  margin: .5rem 1rem;
 }
 
 .result-section{
   height: 50px;
 }
 .footer {
-  color: white;
   background-color: var(--primary-color);
-  border-top-right-radius: 1rem;
-  padding: .5rem 1rem;
+  padding: .2rem 1rem;
   text-align: center;
   bottom: 0;
-  /* width: 100%;
-  position: absolute; */
 }
 
 .footer .link {
@@ -78,4 +75,8 @@ button{
 .list-item-inline {
   display: inline;
   padding: .5rem 1rem;
+}
+
+.label-policy {
+  color: white;
 }

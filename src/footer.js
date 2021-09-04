@@ -6,7 +6,6 @@ import linkedin from './assets/linkedin.svg';
 function Footer() { 
     return (
         <footer class="footer">
-            <div>social media presence</div>
             <ul class="list-non-bullet">
                 <li class="list-item-inline">
                     <a href="https://github.com/surajmore98" class="link"><img alt="github" src={github} title="github"/></a>

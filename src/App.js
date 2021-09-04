@@ -47,6 +47,7 @@ function App() {
       <div className="result-section">
         <h2>{result}</h2>
       </div>
+      <h4 className="label-policy">Privacy policy: we do not store data.</h4>
     </div>
   );
 }
